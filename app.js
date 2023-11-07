@@ -16,6 +16,15 @@ for(let i = 0; i < 100; i++)
 
 }
 
+//while
+// let i = 1
+// while(i <=100){
+//     console.log(i)
+// }
+// i++
+
+
+//do while
 // do{
 //     if(x % 2 !==0){
 //         console.log(x);
@@ -42,6 +51,46 @@ for (let i = 1; i <=100; i++)
         console.log(i);
     }
 }
+
+//while
+
+// let i = 1
+// while(i <= 100){
+//     if (i % 3 ==0 && i % 5 == 0)
+//     {
+//         console.log("FizzBuzz")
+//     } else if (i % 5 == 0)
+//     {
+//         console.log("Buzz")
+//     } else if (i % 3 == 0)
+//     {
+//         console.log("Fizz");
+//     } else 
+//     {
+//         console.log(i);
+//     }
+ //      i++
+// }
+
+//do while
+// let i = 1
+// do{
+//     if (i % 3 ==0 && i % 5 == 0)
+//     //     {
+//     //         console.log("FizzBuzz")
+//     //     } else if (i % 5 == 0)
+//     //     {
+//     //         console.log("Buzz")
+//     //     } else if (i % 3 == 0)
+//     //     {
+//     //         console.log("Fizz");
+//     //     } else 
+//     //     {
+//     //         console.log(i);
+//     //     }
+//      //      i++
+
+// }while(i <=100)
 
 let value = Math.round((Math.random() * 500)); // creates a random number between 0 and 500
 let n = Math.round(Math.random() * (500 - 100) + 100); // creates a random number between 100 and 500
